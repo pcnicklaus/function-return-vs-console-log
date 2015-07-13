@@ -1,4 +1,31 @@
-// var yourAnswer = prompt("pick a number between 1 & 10")
+function returnValue(number) {
+  return number * 2;
+}
+
+function consoleValue(number) {
+  console.log(number * 2);
+}
+
+returnValue(2)
+consoleValue(4)
+
+if(returnValue === undefined) {
+  console.log("Function doesn't return a value")
+} else {
+  console.log("Function returns a value")
+}
+
+if(consoleValue === undefined) {
+  console.log("Function doesn't return a value")
+} else {
+  console.log("function returns a value")
+}
+
+
+
+
+
+// var yourAnswer = Number(prompt("pick a number between 1 & 10"))
 //
 // function yourNumberReturn(yourAnswer) {
 //      for (var i = 0; i < 10; i++) {
@@ -27,18 +54,18 @@
 //
 // function howAreYou();
 
-var howdy = prompt("What do you want to do?")
-
-function doSomething() {
-  return "This is so great but no one will know unless you let people know that you like to do " + howdy;
-  console.log("but i'm so lazy that i just can't make the effort. so little time, so much to do, so i'll do nothing!!!");
-}
-//nothing will be shown in console because this is being returned//
-
-function doSomethingElse () {
-  console.log("You're so good becasue you want to be active and " + howdy)
-}
-// this will be printed becasue of the console.log//
-
-doSomething();
-doSomethingElse();
+// var howdy = prompt("What do you want to do?")
+//
+// function doSomething() {
+//   return "This is so great but no one will know unless you let people know that you like to do " + howdy;
+//   console.log("but i'm so lazy that i just can't make the effort. so little time, so much to do, so i'll do nothing!!!");
+// }
+// //nothing will be shown in console because this is being returned//
+//
+// function doSomethingElse () {
+//   console.log("You're so good becasue you want to be active and " + howdy)
+// }
+// // this will be printed becasue of the console.log//
+//
+// console.log(doSomething());
+// console.log(doSomethingElse());
